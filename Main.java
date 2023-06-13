@@ -15,7 +15,7 @@ for(int i = 0; i < 2; i++) a[i] = (int)(Math.random() * 6) + 1;
 System.out.println("Die 1: " + a[0]);
 System.out.println("Die 2: " + a[1]);
 System.out.println("Total value: " + (a[0] + a[1]));
-if(a[0] + a[1] >= 7) System.out.println("You won!");
-        else System.out.println("You lost!");
+if(a[0] + a[1] >= 7) System.out.println(n + " won!");
+        else System.out.println(n + " lost!");
     }
 }
